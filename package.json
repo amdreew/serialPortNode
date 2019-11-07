@@ -1,0 +1,19 @@
+{
+  "name": "serialportnode",
+  "version": "1.0.0",
+  "description": "este proyecto tienen como finalidad leer datos enviados al puerto serial y servirlos a multiples clientes http",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "serialport": "^8.0.5",
+    "socket.io": "^2.3.0"
+  }
+}
